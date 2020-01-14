@@ -8,22 +8,27 @@
 </head>
 <body>
   <h1>Todo List</h1>
+  <!--create toggle all button-->
   <div>
     <button onclick="handlers.toggleAll()">Toggle All</button>
   </div>
+  <!--create add button-->
   <div>
     <button onclick="handlers.addTodo()">Add</button>
     <input id="addTodoInputText" type="text">
   </div>
+  <!--create change button-->
   <div>
     <button onclick="handlers.changeTodo()">Change Todo</button>
     <input id="changeTodoPositionInput" type="number">
     <input id="changeTodoTextInput" type="text">
   </div>
+  <!--create toggle completed button-->
   <div>
     <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
     <input id="toggleCompletedPositionInput" type="number">
   </div>
+  <!--unordered list to display todos-->
   <ul>
 
   </ul>
